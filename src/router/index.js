@@ -1,0 +1,35 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+import HelloWorld from '@/components/HelloWorld'
+import Playground from '@/components/Playground'
+import Content from '@/components/Content'
+import About from '@/components/About'
+
+
+Vue.use(Router)
+
+export default new Router({
+  // mode: 'history',
+  routes: [
+    {
+      path: '/',
+      name: 'HelloWorld',
+      component: HelloWorld
+    },
+    {
+      path: '/Playground',
+      name: 'Playground',
+      component: Playground
+    },
+    {
+      path: '/Content',
+      name: 'Content',
+      component: Content
+    },
+    {
+      path: '/About',
+      name: 'About',
+      component: About
+    },
+  ]
+})
