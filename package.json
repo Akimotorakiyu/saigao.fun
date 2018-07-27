@@ -1,8 +1,7 @@
 {
   "name": "new",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "个人网站",
   "directories": {
     "doc": "docs"
   },
