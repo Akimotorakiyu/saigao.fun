@@ -4,7 +4,7 @@ module.exports={
     // 默认描述，会被地区描述覆盖
     description:"Z(t+Δ)=f[Z(t),t+Δ]",
     base:"/",
-    dest:"../build",
+    dest:"build",
     port:"8080",
     serviceWorker:"true",
     locales:{
