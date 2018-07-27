@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: P(X=n)=1-p^n n∈N+ →
+actionText: P(X=n)=1-p^n, n∈N+ →
 actionLink: /note/
 features:
 - title: Silver·西尔弗
