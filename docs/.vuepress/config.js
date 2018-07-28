@@ -27,7 +27,10 @@ module.exports = {
             href: "https://cdn.bootcss.com/KaTeX/0.6.0/katex.min.css"
         }],
         // 标签上显示的ico标志
-        ['link', { rel: 'icon', href: "favicon.ico" }],
+        ['link', {
+            rel: 'icon',
+            href: "favicon.ico"
+        }],
     ],
     themeConfig: {
         sidebarDepth: 2,
@@ -46,6 +49,10 @@ module.exports = {
                 link: "/essay/"
             },
             {
+                text: "Github",
+                link: "https://github.com/SilverLeaves"
+            },
+            {
                 text: "关于",
                 link: "/about"
             },
@@ -55,8 +62,7 @@ module.exports = {
             '/essay/': [{
                 title: '随笔',
                 collapsable: false,
-                children: [
-                ]
+                children: []
             }],
             '/note/': [{
                 title: '笔记',
