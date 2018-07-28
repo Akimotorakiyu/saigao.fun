@@ -7,9 +7,12 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs":"vuepress dev docs",
-    "docs:build":"vuepress build docs"
+    "docs": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3"
+  }
 }

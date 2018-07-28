@@ -1,4 +1,4 @@
-# 关于
+# 我的公式
 
 ## formula of destiny 
 
