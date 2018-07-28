@@ -25,7 +25,9 @@ module.exports = {
         ['link', {
             rel: 'stylesheet',
             href: "https://cdn.bootcss.com/KaTeX/0.6.0/katex.min.css"
-        }]
+        }],
+        // 标签上显示的ico标志
+        ['link', { rel: 'icon', href: "favicon.ico" }],
     ],
     themeConfig: {
         sidebarDepth: 2,
@@ -54,24 +56,15 @@ module.exports = {
                 title: '随笔',
                 collapsable: false,
                 children: [
-                    '/essay/',
                 ]
             }],
             '/note/': [{
                 title: '笔记',
                 collapsable: false,
                 children: [
-                    '/note/',
                     '/note/learning',
                 ]
             }],
-            '/': [{
-                title: '',
-                collapsable: false,
-                children: [
-                    '/about',
-                ]
-            }, ]
         }
     }
 }
