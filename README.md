@@ -13,6 +13,7 @@
 ## 用法
 
 ```bash
+npm install -g vuepress
 npm install
 npm run docs
 ```
@@ -25,4 +26,4 @@ npm run docs:build
 
 ## 协议
 
-内容私有，模板MIT
+内容私有，其他MIT
