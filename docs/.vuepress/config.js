@@ -49,6 +49,10 @@ module.exports = {
                 link: "/essay/"
             },
             {
+                text: "生活",
+                link: "/life/"
+            },
+            {
                 text: "Github",
                 link: "https://github.com/SilverLeaves"
             },
@@ -58,18 +62,23 @@ module.exports = {
             },
         ],
         sidebar: {
-            // 除此之外还可以自定侧边栏
-            '/essay/': [{
-                title: '随笔',
-                collapsable: false,
-                children: []
-            }],
             '/note/': [{
                 title: '笔记',
                 collapsable: false,
                 children: [
                     '/note/learning',
                 ]
+            }],
+            // 除此之外还可以自定侧边栏
+            '/essay/': [{
+                title: '随笔',
+                collapsable: false,
+                children: []
+            }],
+            '/essay/': [{
+                title: '生活',
+                collapsable: false,
+                children: []
             }],
         }
     }
