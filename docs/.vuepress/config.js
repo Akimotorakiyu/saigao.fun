@@ -1,6 +1,6 @@
 module.exports = {
     // 默认标题，会被地区标题覆盖
-    title: "Silver湫澲",
+    title: "Silver·湫澲",
     // 默认描述，会被地区描述覆盖
     description: "Z(t+Δ)=f[Z(t),t+Δ]",
     base: "/",
