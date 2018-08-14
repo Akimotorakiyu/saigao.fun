@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /hero.png
+heroImage: /logo.png
 actionText: P(X=n)=1-p^n n∈N+ →
 actionLink: /
 features:

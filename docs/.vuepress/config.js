@@ -53,6 +53,10 @@ module.exports = {
                 link: "/life/"
             },
             {
+                text: "音律",
+                link: "http://music.saigao.fun"
+            },
+            {
                 text: "Github",
                 link: "https://github.com/SilverLeaves"
             },
