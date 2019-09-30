@@ -2,8 +2,6 @@
 
 ## formula of destiny 
 
-动态变化的简约描述
-
 $$Z(t+\Delta)=f[Z(t),t+\Delta]$$
 
 ## evaluation of continuing or thinking
